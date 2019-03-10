@@ -1,0 +1,8 @@
+#!/bin/sh
+
+chown root indi_picamera_ccd
+chgrp root indi_picamera_ccd
+chown root indi_picamera_ccd.xml
+chgrp root indi_picamera_ccd.xml
+cp indi_picamera_ccd.xml /usr/share/indi
+cp indi_picamera_ccd /usr/bin
